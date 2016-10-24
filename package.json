@@ -4,7 +4,8 @@
   "description": "pet tracker template",
   "main": "index.js",
   "scripts": {
-      "dev-start": "webpack-dev-server --content-base dist/"
+      "local-dev-server": "webpack-dev-server --content-base dist/",
+      "c9-dev-server": "webpack-dev-server --host $IP --port $PORT --content-base dist/"
   },
   "keywords": [
     "template"
